@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import axios from 'axios';
-import 'bootstrap/dist/css/bootstrap.min.css';
+import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
   const [data, setData] = useState(null);
@@ -64,6 +64,7 @@ function App() {
           Download the voice
         </a>
       )}
+    <p className='text-center fs-1 fw-bold fst-italic'>Developed by Hamza Saleem</p>
     </div>
   );
 }
